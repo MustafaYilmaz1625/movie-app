@@ -1,0 +1,44 @@
+.movie-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search {
+  width: 100%;
+  justify-content: space-between;
+  background-color: #373b69;
+  padding: 1rem;
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.genre-input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #373b69;
+  margin: 0;
+  padding: 25px 20px 20px 20px;
+  width: 100%;
+}
+
+.search-input {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 3px;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0a7c8b;
+}
+
+.notfound {
+  font-size: xx-large;
+  padding-top: 150px;
+}
